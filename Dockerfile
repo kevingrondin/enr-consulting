@@ -4,9 +4,7 @@ COPY package*.json ./
 RUN npm install --force
 COPY ./ .
 RUN npm run build
-RUN ls /
-
-usr/src/app/doc/build # afficher le contenu du dossier build
+RUN ls /usr/src/app/doc/build # afficher le contenu du dossier build
 RUN find /usr/src/app/doc/build -name "*.map" -type f -delete
 
 # production environment

@@ -1,6 +1,6 @@
 services:
   frontend:
-    image: registry.gitlab.austral-energie.com/devops/${CI_PROJECT_NAME}
+    image: registry.gitlab.austral-energie.fr/devops/${CI_PROJECT_NAME}
     restart: always
     labels:
       - "traefik.enable=true"
