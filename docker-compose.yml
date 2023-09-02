@@ -17,7 +17,7 @@ services:
 
       # # authelia 35iozJLPc3f
       #- "traefik.http.routers.${CI_PROJECT_NAME}.middlewares=${CI_PROJECT_NAME}-auth"
-      - "traefik.http.middlewares.${CI_PROJECT_NAME}-auth.basicauth.users=admin:$$apr1$$OW/IvHft$$MywbBNAMFeBFPw5birxAg1"
+      - "traefik.http.middlewares.${CI_PROJECT_NAME}-auth.basicauth.users=admin:35iozJLPc3f"
       - "traefik.http.routers.${CI_PROJECT_NAME}.middlewares=test-redirectregex@docker,${CI_PROJECT_NAME}-auth@docker"
       - "traefik.http.routers.${CI_PROJECT_NAME}.tls=true"
       - "traefik.http.routers.${CI_PROJECT_NAME}.tls.certresolver=myresolver"
