@@ -1,0 +1,30 @@
+services:
+  frontend:
+    image: registry.gitlab.austral-energie.com/devops/${CI_PROJECT_NAME}
+    restart: always
+    labels:
+      - "traefik.enable=true"
+      - "traefik.docker.network=traefik-backend"
+      - "traefik.http.routers.${CI_PROJECT_NAME}.entrypoints=websecure"
+      - "traefik.http.routers.${CI_PROJECT_NAME}.rule=Host(`${DOMAIN_NAME}`) || Host(`www.${DOMAIN_NAME}`)"
+      # use redirect-to-non-www middlewares
+      - "traefik.http.middlewares.test-redirectregex.redirectregex.regex=^https://www\\.(.*)"
+      - "traefik.http.middlewares.test-redirectregex.redirectregex.replacement=https://$$1"
+      - "traefik.http.middlewares.test-redirectregex.redirectregex.permanent=true"
+      - "traefik.http.routers.${CI_PROJECT_NAME}.tls.domains[0].main=${DOMAIN_NAME}" 
+      - "traefik.http.routers.${CI_PROJECT_NAME}.tls.domains[0].sans=www.${DOMAIN_NAME}"
+      # end redirect
+
+      # # authelia 35iozJLPc3f
+      #- "traefik.http.routers.${CI_PROJECT_NAME}.middlewares=${CI_PROJECT_NAME}-auth"
+      - "traefik.http.middlewares.${CI_PROJECT_NAME}-auth.basicauth.users=root:$apr1$nCN7TlVQ$xVXWhQI8qBFi9roFxQSL7/"
+      - "traefik.http.routers.${CI_PROJECT_NAME}.middlewares=test-redirectregex@docker,${CI_PROJECT_NAME}-auth@docker"
+      - "traefik.http.routers.${CI_PROJECT_NAME}.tls=true"
+      - "traefik.http.routers.${CI_PROJECT_NAME}.tls.certresolver=myresolver"
+      - "traefik.http.services.${CI_PROJECT_NAME}.loadbalancer.server.port=80"
+    networks:
+      - traefik-backend
+
+networks:
+  traefik-backend:
+    external: true
