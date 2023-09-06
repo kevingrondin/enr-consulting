@@ -4,4 +4,4 @@ sidebar_position: 1
 
 # Introduction
 
-> Voici les différentes partie que nous allons abordés dans ce site
+> Voici tout les documentation et ressources nécessaire à la direction pour comprendre le service SI.
