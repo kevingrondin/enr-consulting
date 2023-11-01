@@ -1,4 +1,4 @@
-FROM  node:18-bullseye-slim as builder
+FROM  node:18-alpine as builder
 WORKDIR /usr/src/app/doc
 COPY package*.json ./
 RUN npm install --force
