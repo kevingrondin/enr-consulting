@@ -96,32 +96,32 @@ const config = {
               },
             ],
           },
-          {
-            title: 'Site',
-            items: [
-              {
-                label: 'Austral Energie',
-                href: 'www.austral-energie.com',
-              },
-              {
-                label: 'Austral Solar',
-                href: 'www.australsolar.re',
-              },
-              {
-                label: 'Austral Isolation',
-                href: 'www.austral-isolation.com',
-              },
-            ],
-          },
-          {
-            title: 'Application',
-            items: [
-              {
-                label: 'Accueil',
-                to: 'http://accueil.austral-energie.com',
-              },
-            ],
-          },
+          // {
+          //   title: 'Site',
+          //   items: [
+          //     {
+          //       label: 'Austral Energie',
+          //       href: 'www.austral-energie.com',
+          //     },
+          //     {
+          //       label: 'Austral Solar',
+          //       href: 'www.australsolar.re',
+          //     },
+          //     {
+          //       label: 'Austral Isolation',
+          //       href: 'www.austral-isolation.com',
+          //     },
+          //   ],
+          // },
+          // {
+          //   title: 'Application',
+          //   items: [
+          //     {
+          //       label: 'Accueil',
+          //       to: 'http://accueil.austral-energie.com',
+          //     },
+          //   ],
+          // },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} le site DSI est dédié uniquement à ça direction`,
       },
