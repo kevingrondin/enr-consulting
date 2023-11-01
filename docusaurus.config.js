@@ -118,7 +118,7 @@ const config = {
             items: [
               {
                 label: 'Accueil',
-                to: 'www.accueil.austral-energie.com',
+                to: 'http://accueil.austral-energie.com',
               },
             ],
           },
