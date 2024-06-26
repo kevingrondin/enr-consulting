@@ -4,29 +4,29 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Projet',
+    title: 'Etude de Marché',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Suivire les projets SI de l'entreprise
+        Analyse, Concurrence, Réglementation
       </>
     ),
   },
   {
-    title: 'RGPD',
+    title: 'Infrastructure et équipement',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Mesure employé pour la protection des données personnelles de l'entreprise
+        Fournisseur, Localisation, Technologie
       </>
     ),
   },
   {
-    title: 'Securité',
+    title: 'Lancement et Opération',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Plan de continuité d'activité, Plan de reprise d'activité, Plan de secours informatique
+        Lancement, Process, Feedback
       </>
     ),
   },

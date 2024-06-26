@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'DSI',
-  tagline: 'Projet Securité RGPD DSI',
+  title: 'ENR CONSULTING',
+  tagline: '',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -19,7 +19,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   // organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'dsi', // Usually your repo name.
+  projectName: 'enr-consulting', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -64,7 +64,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'DSI',
+        title: 'ENR Consulting',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -74,7 +74,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Documentation',
+            label: 'Stratégie',
           },
           {to: '/blog', label: 'Actu', position: 'left'},
           // {
@@ -88,10 +88,10 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Documentaton',
+            title: 'Stratégie',
             items: [
               {
-                label: 'Documentation',
+                label: 'Stratégie',
                 to: '/docs/intro',
               },
             ],
@@ -123,7 +123,7 @@ const config = {
           //   ],
           // },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} le site DSI est dédié uniquement à ça direction`,
+        copyright: `Copyright © ${new Date().getFullYear()} Propriété exclusif de ENR CONSULTING`,
       },
       prism: {
         theme: lightCodeTheme,
