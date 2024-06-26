@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://kevingrondin.github.io/enr-consulting/blog</id>
+    <title>ENR CONSULTING Blog</title>
+    <updated>2024-01-24T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://kevingrondin.github.io/enr-consulting/blog"/>
+    <subtitle>ENR CONSULTING Blog</subtitle>
+    <icon>https://kevingrondin.github.io/enr-consulting/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Stratégie]]></title>
+        <id>https://kevingrondin.github.io/enr-consulting/blog/stratégie</id>
+        <link href="https://kevingrondin.github.io/enr-consulting/blog/stratégie"/>
+        <updated>2024-01-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Ce site va me permettre à l'élaboration de la stratégie de la société.]]></summary>
+        <content type="html"><![CDATA[<p>Ce site va me permettre à l'élaboration de la stratégie de la société.</p>
+<ul>
+<li>Etude de marché</li>
+<li>Plan d'affaires</li>
+<li>Obligation Juridiques</li>
+<li>Financement</li>
+<li>Infrastructure et équipement</li>
+<li>Recrutement et formations</li>
+<li>Stratégie Marketing</li>
+<li>Lancement et opérations</li>
+<li>Conformité et Normes</li>
+<li>Suivi et développement</li>
+</ul>]]></content>
+        <author>
+            <name>Yangshun Tay</name>
+            <uri>https://github.com/yangshun</uri>
+        </author>
+        <category label="intro" term="intro"/>
+    </entry>
+</feed>

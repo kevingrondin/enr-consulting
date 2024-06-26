@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>ENR CONSULTING Blog</title>
+        <link>https://kevingrondin.github.io/enr-consulting/blog</link>
+        <description>ENR CONSULTING Blog</description>
+        <lastBuildDate>Wed, 24 Jan 2024 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[Stratégie]]></title>
+            <link>https://kevingrondin.github.io/enr-consulting/blog/stratégie</link>
+            <guid>https://kevingrondin.github.io/enr-consulting/blog/stratégie</guid>
+            <pubDate>Wed, 24 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Ce site va me permettre à l'élaboration de la stratégie de la société.]]></description>
+            <content:encoded><![CDATA[<p>Ce site va me permettre à l'élaboration de la stratégie de la société.</p>
+<ul>
+<li>Etude de marché</li>
+<li>Plan d'affaires</li>
+<li>Obligation Juridiques</li>
+<li>Financement</li>
+<li>Infrastructure et équipement</li>
+<li>Recrutement et formations</li>
+<li>Stratégie Marketing</li>
+<li>Lancement et opérations</li>
+<li>Conformité et Normes</li>
+<li>Suivi et développement</li>
+</ul>]]></content:encoded>
+            <category>intro</category>
+        </item>
+    </channel>
+</rss>

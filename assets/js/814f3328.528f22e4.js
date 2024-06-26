@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdsi=self.webpackChunkdsi||[]).push([[535],{5641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Strat\xe9gie","permalink":"/enr-consulting/blog/strat\xe9gie","unlisted":false}]}')}}]);
